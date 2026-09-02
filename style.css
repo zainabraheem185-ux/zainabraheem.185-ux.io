@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: linear-gradient(lightblue, pink, lightyellow );
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {text-align: center;
+    
+
+}
+
+h1 {
+    color: black;
+}
+p {
+    color: black;
+}
+
+
+p{font-style: normal;}
+.special-link {font-style: oblique;}
+
+
+
+img{width: 300px;
+height: auto;}
+
+.special-link{font-style: oblique;}
+
+h1, h2, h3, h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
