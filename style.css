@@ -109,6 +109,19 @@ h4 {
 
 
 
+
+.title-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-logo img {
+    width: 7%;
+    height: auto;
+    margin-right: 10px;
+}
+
     
  header {
     background: rgb(243, 201, 207);
@@ -117,6 +130,8 @@ h4 {
     width: 100%;
     box-sizing: border-box;
 }
+
+
 
     nav {
         background: rgb(243, 201, 207);
