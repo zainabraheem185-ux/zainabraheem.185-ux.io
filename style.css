@@ -184,7 +184,7 @@ h4 {
 
 .ICT-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 70px;
     width: 900px;
@@ -213,8 +213,18 @@ h4 {
     margin: 0;
 }
 
-.ICT-content img {
+.ICT-image {
+    width: 320px;
+    text-align: center;
+}
+
+.ICT-image img {
     width: 320px;
     height: auto;
-    flex-shrink: 0;
+}
+
+.ICT-image p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
 }
