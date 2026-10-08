@@ -86,11 +86,13 @@ h4 {
     text-align: center;
     height: auto;
     margin-top: 2%
+   
 }
 
 .profile-text {
     width: 40%;
     font-size: x-large;
+    padding-right: 50%;
 }
 
 .profile-content img {
@@ -156,6 +158,8 @@ table {
     border-spacing: 10px;
     width: 50%;
     margin-top: 3%;
+     margin: 20px auto;
+    
 }
 
 th,
@@ -232,4 +236,51 @@ footer {
 }
 .blog-text a:hover {
     color: red;
+}
+
+.blog-text{
+    font-size: large;
+}
+
+.programing-content {
+    padding-top: 70px;
+}
+
+.programming-text{
+    
+    font-size: large;
+}
+
+.direction-content{
+   padding-top: 40px;
+
+}
+
+.direction-text{
+    font-size: larger;
+}
+.direction-image img{
+    width: 500px;
+    height: auto;
+}
+
+.goals-content{
+    padding-top : 40px;
+}
+
+.goals-text{
+    font-size: larger;
+}
+
+.ict-work-content{
+    padding-top: 40px;
+}
+
+.ict-work-text{
+    font-size: larger;
+}
+
+.ict-work-img img{
+    width: 500px;
+    height: auto;
 }
