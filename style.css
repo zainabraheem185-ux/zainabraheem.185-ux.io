@@ -64,6 +64,7 @@ h4 {
     width: 25%;
     height: auto;
     margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .home-text {
@@ -71,40 +72,28 @@ h4 {
     font-size: x-large;
 }
 
-.profile-text ul {
-    display: inline-block;
-    text-align: left;
-}
-
-
-
 .profile-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 10%;
-    text-align: center;
-    height: auto;
-    margin-top: 2%
-   
+    margin-top: 2%;
 }
 
 .profile-text {
     width: 40%;
     font-size: x-large;
-    padding-right: 50%;
+}
+
+.profile-text ul {
+    text-align: left;
+    padding-left: 30px;
 }
 
 .profile-content img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10%;
-    text-align: center;
     width: 25%;
     height: auto;
-    margin-top: 5%;
-
+    margin-top: 2%;
 }
 
 
@@ -191,6 +180,7 @@ footer {
     gap: 70px;
     width: 900px;
     margin: 0 auto;
+    padding-bottom: 5%;
 }
 
 .ICT-text {
@@ -229,6 +219,21 @@ footer {
     font-size: 18px;
     line-height: 1.5;
     margin-top: 20px;
+}
+
+.ICT-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ICT-heading img {
+    width: 60px;
+    height: auto;
+}
+
+.ICT-heading h1 {
+    margin: 0;
 }
 
 .blog-text a {
