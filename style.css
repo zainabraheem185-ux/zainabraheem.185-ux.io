@@ -116,6 +116,7 @@ nav a:hover {
     height: auto;
     margin-top: 2%;
     border-radius: 12px;
+   
 }
 
 .title-logo {
@@ -128,6 +129,26 @@ nav a:hover {
     width: 7%;
     height: auto;
     margin-right: 10px;
+}
+
+.study-progress{
+       padding-left: 2%;
+
+}
+
+.status-pending {
+    background-color: #fff0c9;
+    color: #755b18;
+}
+
+.status-sufficient {
+    background-color: #d9edda;
+    color: #245b32;
+}
+
+.status-insufficient {
+    background-color: #f5d1d5;
+    color: #8b2937;
 }
 
 .ICT {
