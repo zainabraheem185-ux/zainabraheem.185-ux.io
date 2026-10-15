@@ -53,6 +53,7 @@ header nav {
     flex-wrap: wrap;
     gap: 10px;
     padding: 14px 10px;
+     position: relative;
 }
 
 nav a {
@@ -95,13 +96,18 @@ nav a:hover {
 
 .profile-content {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
-    gap: 10%;
-    margin-top: 2%;
+    gap: 30px;
+    margin: 2% auto;
+    max-width: 1000px;
 }
 
+
+
 .profile-text {
+    flex: 1;
+    min-width: 0;
     width: 40%;
     font-size: x-large;
 }
@@ -111,12 +117,17 @@ nav a:hover {
     padding-left: 30px;
 }
 
-.profile-content img {
-    width: 25%;
+.profile-images {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-images img {
+    width: 100%;
     height: auto;
-    margin-top: 2%;
     border-radius: 12px;
-   
 }
 
 .title-logo {
@@ -170,6 +181,7 @@ nav a:hover {
     width: 450px;
     min-width: 0;
     text-align: left;
+    font-size: 22px;
 }
 
 .ICT-list {
@@ -233,8 +245,23 @@ nav a:hover {
     color: #71354d;
 }
 
+.back-to-blog {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+.back-to-blog:hover {
+    text-decoration: underline;
+}
+
+
 .programing-content {
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .programming-text {
@@ -264,6 +291,51 @@ nav a:hover {
     font-size: larger;
 }
 
+
+.goals-cards {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    align-items: stretch;
+}
+
+.goal-card {
+    flex: 1;
+    padding: 25px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+
+.goal-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.goal-card p {
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+.strength-goal {
+    background-color: #fbe5e8;
+    border-color: #e8aab5;
+}
+
+
+.weakness-goal {
+    background-color: #fff6d9;
+    border-color: #e8d18a;
+}
+
+
+@media (max-width: 650px) {
+    .goals-cards {
+        flex-direction: column;
+    }
+}
+
 .ict-work-content {
     padding-top: 40px;
 }
@@ -276,6 +348,15 @@ nav a:hover {
     width: 500px;
     height: auto;
     border-radius: 12px;
+}
+
+.ict-work-text a {
+    color: #c45b7c !important;
+    text-decoration: underline !important;
+}
+
+.ict-work-text a:hover {
+    color: #91405a !important;
 }
 
 
