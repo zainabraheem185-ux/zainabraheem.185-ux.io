@@ -218,6 +218,10 @@ nav a:hover {
     margin-top: 20px;
 }
 
+.ICT-image img {
+    margin-top: 150px;
+}
+
 .ICT-heading {
     display: flex;
     align-items: center;
@@ -310,6 +314,10 @@ nav a:hover {
 .goal-card h3 {
     margin-top: 0;
     margin-bottom: 15px;
+}
+
+.study-plan {
+    font-size: large;
 }
 
 .goal-card p {
